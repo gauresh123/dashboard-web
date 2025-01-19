@@ -102,14 +102,6 @@ const DashBoardPage = () => {
             <Legend />
             <Line type="monotone" dataKey="average_time" stroke="#8884d8" />
           </LineChart>
-          {/* <BarChart data={responseTimes?.week_wise}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="week" />
-            <YAxis />
-            <Tooltip />
-            <Legend />
-            <Bar dataKey="average_time" fill="#82ca9d" />
-          </BarChart> */}
         </ResponsiveContainer>
       ),
     },
@@ -185,26 +177,6 @@ const DashBoardPage = () => {
       ))}
     </div>
   );
-};
-
-const styles = {
-  container: {
-    display: "flex",
-    flexWrap: "wrap",
-    gap: "20px",
-    padding: "20px",
-    justifyContent: "center",
-    backgroundColor: "#2C2D2D",
-  },
-  chart: {
-    flex: "1 1 calc(33% - 20px)",
-    maxWidth: "400px",
-    minWidth: "300px",
-    backgroundColor: "#fff",
-    padding: "20px",
-    borderRadius: "8px",
-    boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
-  },
 };
 
 export default DashBoardPage;
