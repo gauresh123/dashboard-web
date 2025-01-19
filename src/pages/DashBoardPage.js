@@ -1,22 +1,3 @@
-// import axios from "axios";
-// import React, { useEffect } from "react";
-// import { useSelector } from "react-redux";
-
-// function DashBoardPage() {
-//   const categoryDistribution = useSelector(
-//     (state) => state.aiData.categoryDistribution
-//   );
-//   const insightSummary = useSelector((state) => state.aiData.insightSummary);
-//   const responseTimes = useSelector((state) => state.aiData.responseTimes);
-//   const userSatisfaction = useSelector(
-//     (state) => state.aiData.userSatisfaction
-//   );
-//   const usageStatistics = useSelector((state) => state.aiData.usageStatistics);
-//   return <div>DashBoardPage</div>;
-// }
-
-// export default DashBoardPage;
-
 import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import {
